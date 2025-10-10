@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     
-    // --- DATA ARTIKEL ---
     const articlesData = [
         {
             title: "Chapter 1 (g)",
             original: [
-                   "For I deem that the true votary of philosophy is likely to be misunderstood by other men; they do not perceive that he is always pursuing death and dying; and if this be so, and he has had the desire of death all his life long, why when his time comes should he repine at that which he has been always pursuing and desiring?",
+                    { text: 'For I deem that the true votary of philosophy is likely to be misunderstood by other men; they do not perceive that he is always pursuing death and dying; and if this be so, and he has had the desire of death all his life long, why when his time comes should he repine at that which he has been always pursuing and desiring?', 
+                 style: 'italic' },
   "PLATO, PHAEDO",
                    "",
   "Cambridge, Michaelmas Term, October.",
@@ -939,103 +939,103 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: "On Magick (g)",
             original: [
-                  "On Magick",
-  "Magick, the most mysterious and capricious of disciplines, admired for its power, derided for its frivolity, is in brief the act of telling lies about the world.",
-  "What magicians of ancient civilizations discovered through accident and ingenuity, and what the English philosopher-magicians of the eighteenth century onward codified into the Euro-American received canon, was that the natural laws of the world were set but fragile.",
-  "You could cleverly reinterpret them.",
-  "For brief periods of time one could even bewilder and suspend them, so long as you spun the right web of untruths.",
-  "Linguistic trickery, logical conundrums, it all worked.",
-  "All you had to do was find a set of premises that, even if just for a split second, made the world seem other than what it really was.",
-  "The chalk, and whatever remnants of living-dead magical energy lay in the pulverized shells of those sea creatures that perished millions of years ago, did the rest.",
-  "",
-  "Now, magick had progressed a lot since, say, the primitive rituals suggested by the Uffington chalk inscriptions, and there had since been a proliferation of flashy subfields that in fact had nothing to do with chalk, but rather all sorts of arcane objects, enchanted music, and visual illusions.",
-  "One could now study the archaeology of magick, the history of magick, the music of magick, and on and on.",
-  "Over in America, visual illusions and flashy showmanship were all the rage.",
-  "In Europe they were going on about things called postmodernist and poststructuralist magick, which seemed to involve lots of spells doing the opposite of what their inventors wanted, and spells that did nothing at all, which everyone claimed was very profound.",
-  "But all the best magick was still done at Cambridge, and good, traditionalist Cambridge was dedicated to the bare bones of the art.",
-  "Analytic magick.",
-  "Chalk, surface, paradox.",
-  "",
-  "The paradox—the crucial element.",
-  "The word paradox comes from two Greek roots: para, meaning “against,” and doxa, meaning “belief.”",
-  "The trick of magick is to defy, trouble, or, at the very least, dislodge belief.",
-  "Magick succeeds by casting confusion and doubt.",
-  "Magick taunts physics and makes her cry.",
-  "",
-  "Take, for instance, the Sorites Paradox.",
-  "Imagine a heap of sand.",
-  "Very simple.",
-  "To remove one grain of sand from the heap does not make it any less a heap.",
-  "Neither does removing two.",
-  "You could sit there with tweezers for hours, but you would not have diminished the heap.",
-  "What if you remove a thousand grains?",
-  "A million?",
-  "Precisely how many grains of sand must you remove before it is no longer a heap?",
-  "If you sit cross-legged with a pair of tweezers, plucking out the sand one grain at a time, what is the precise moment when you will succeed in your demolition of the heap?",
-  "No one can name this moment.",
-  "But if the difference between the heap and the heap-minus-one is minuscule, how can you ever transform a heap into a not-heap?",
-  "",
-  "Come on.",
-  "You know very well what a heap is.",
-  "You know it when you see it.",
-  "It is like porn.",
-  "And you know that if you shovel giant piles of sand out of the heap, there will come a moment when you can definitely call it not-a-heap.",
-  "",
-  "But just for that moment, when the paradox is laid out to you in that precise wording, you don’t know.",
-  "For a moment, you think it is true—that it is impossible, indeed, to turn a heap into a not-heap.",
-  "In fact you are probably so exhausted from hearing the word heap that the very concept is a blank to you.",
-  "",
-  "Confusion, doubt.",
-  "And with that, for just a moment, the world blinks.",
-  "The heap does not run out.",
-  "",
-  "It was this blink that had seduced Alice to her field.",
-  "In her freshman year of college she took an Introduction to Logic class.",
-  "In their second week, they were treated to a magick demonstration.",
-  "A visiting postdoc stood before the lecture hall and drew a chalk circle around a small pile of sand on a table.",
-  "“Watch,” he said, and reached in to scoop a handful away.",
-  "He did this again, and again, and again.",
-  "He invited the class to line up and, one by one, try to empty the pile with their hands.",
-  "They tried; they couldn’t.",
-  "Each time their hands left the circle, the space around the pile blurred, and the sand did not diminish.",
-  "",
-  "Alice watched the sand spill from her fingers, and something knocked over in her chest.",
-  "She could not breathe.",
-  "Now, here was a miracle.",
-  "Here was Jesus, turning five loaves and two fish into an endless supply.",
-  "All the fields she had considered for her major—maths, physics, medicine, history—they all fell away, they seemed so irrelevant, for why would you study static truths when truth had just exited left?",
-  "She felt it then.",
-  "She felt it every time.",
-  "The stomach-dropping awe, the wondrous delight of a child at a circus who’d just seen a rabbit disappear.",
-  "Through all her years of study, this feeling never went away.",
-  "You thought the world was one way and then it wasn’t.",
-  "One could become zero.",
-  "One could become two.",
-  "A blink of an eye, and the fact of the matter was not.",
-  "If the world could be fluid for you once, how many more times could you make it dance according to your whims?",
-  "",
-  "Everyone else lived in such an ossified world.",
-  "They simply took the rules given to them.",
-  "They were interested only in articulating their own limits; they moved about as if in stone.",
-  "But magicians lived in air, dancing on a tentative staircase of ideas, and it was a source of endless delirium, to know that the instant the world began to bore you, you could snap your fingers, and you’d be in free fall once again.",
-  "",
-  "All it took was to tell a lie—and to believe, despite all the evidence to the contrary, that all the rules could be suspended.",
-  "You held a conclusion in your head and believed, through sheer force of will, that everything else was wrong.",
-  "You had to see the world as it was not.",
-  "",
-  "Now Alice, as she proceeded through her coursework, got very good at this.",
-  "All skilled magicians were.",
-  "Success in this field demanded a forceful, single-minded capacity for self-delusion.",
-  "Alice could tip over her world and construct planks of belief from nothing.",
-  "She believed that finite quantities would never run out, that time could loop back on itself, and that any damage could be repaired.",
-  "She believed that academia was a meritocracy, that hard work was its own reward.",
-  "She believed that department pettiness could not touch you, so long as you kept your head down and did not complain.",
-  "She believed that when professors snapped at you, when they belittled and misused you, it was because they cared.",
-  "And she believed, despite mounting evidence to the contrary, that she was all right, that everything was all right, that she did not need help, that she could just stiffen her upper lip and keep on going.",
-  "",
-  "She believed these things with all her might, with the same delirium it took to keep a heap of sand from ever running out.",
-  "She had no choice.",
-  "It was essential practice for everything that came after."
+                  { text: "On Magick", style: "italic" },
+{ text: "Magick, the most mysterious and capricious of disciplines, admired for its power, derided for its frivolity, is in brief the act of telling lies about the world.", style: "italic" },
+{ text: "What magicians of ancient civilizations discovered through accident and ingenuity, and what the English philosopher-magicians of the eighteenth century onward codified into the Euro-American received canon, was that the natural laws of the world were set but fragile.", style: "italic" },
+{ text: "You could cleverly reinterpret them.", style: "italic" },
+{ text: "For brief periods of time one could even bewilder and suspend them, so long as you spun the right web of untruths.", style: "italic" },
+{ text: "Linguistic trickery, logical conundrums, it all worked.", style: "italic" },
+{ text: "All you had to do was find a set of premises that, even if just for a split second, made the world seem other than what it really was.", style: "italic" },
+{ text: "The chalk, and whatever remnants of living-dead magical energy lay in the pulverized shells of those sea creatures that perished millions of years ago, did the rest.", style: "italic" },
+"",
+{ text: "Now, magick had progressed a lot since, say, the primitive rituals suggested by the Uffington chalk inscriptions, and there had since been a proliferation of flashy subfields that in fact had nothing to do with chalk, but rather all sorts of arcane objects, enchanted music, and visual illusions.", style: "italic" },
+{ text: "One could now study the archaeology of magick, the history of magick, the music of magick, and on and on.", style: "italic" },
+{ text: "Over in America, visual illusions and flashy showmanship were all the rage.", style: "italic" },
+{ text: "In Europe they were going on about things called postmodernist and poststructuralist magick, which seemed to involve lots of spells doing the opposite of what their inventors wanted, and spells that did nothing at all, which everyone claimed was very profound.", style: "italic" },
+{ text: "But all the best magick was still done at Cambridge, and good, traditionalist Cambridge was dedicated to the bare bones of the art.", style: "italic" },
+{ text: "Analytic magick.", style: "italic" },
+{ text: "Chalk, surface, paradox.", style: "italic" },
+"",
+{ text: "The paradox—the crucial element.", style: "italic" },
+{ text: "The word paradox comes from two Greek roots: para, meaning “against,” and doxa, meaning “belief.”", style: "italic" },
+{ text: "The trick of magick is to defy, trouble, or, at the very least, dislodge belief.", style: "italic" },
+{ text: "Magick succeeds by casting confusion and doubt.", style: "italic" },
+{ text: "Magick taunts physics and makes her cry.", style: "italic" },
+"",
+{ text: "Take, for instance, the Sorites Paradox.", style: "italic" },
+{ text: "Imagine a heap of sand.", style: "italic" },
+{ text: "Very simple.", style: "italic" },
+{ text: "To remove one grain of sand from the heap does not make it any less a heap.", style: "italic" },
+{ text: "Neither does removing two.", style: "italic" },
+{ text: "You could sit there with tweezers for hours, but you would not have diminished the heap.", style: "italic" },
+{ text: "What if you remove a thousand grains?", style: "italic" },
+{ text: "A million?", style: "italic" },
+{ text: "Precisely how many grains of sand must you remove before it is no longer a heap?", style: "italic" },
+{ text: "If you sit cross-legged with a pair of tweezers, plucking out the sand one grain at a time, what is the precise moment when you will succeed in your demolition of the heap?", style: "italic" },
+{ text: "No one can name this moment.", style: "italic" },
+{ text: "But if the difference between the heap and the heap-minus-one is minuscule, how can you ever transform a heap into a not-heap?", style: "italic" },
+"",
+{ text: "Come on.", style: "italic" },
+{ text: "You know very well what a heap is.", style: "italic" },
+{ text: "You know it when you see it.", style: "italic" },
+{ text: "It is like porn.", style: "italic" },
+{ text: "And you know that if you shovel giant piles of sand out of the heap, there will come a moment when you can definitely call it not-a-heap.", style: "italic" },
+"",
+{ text: "But just for that moment, when the paradox is laid out to you in that precise wording, you don’t know.", style: "italic" },
+{ text: "For a moment, you think it is true—that it is impossible, indeed, to turn a heap into a not-heap.", style: "italic" },
+{ text: "In fact you are probably so exhausted from hearing the word heap that the very concept is a blank to you.", style: "italic" },
+"",
+{ text: "Confusion, doubt.", style: "italic" },
+{ text: "And with that, for just a moment, the world blinks.", style: "italic" },
+{ text: "The heap does not run out.", style: "italic" },
+"",
+{ text: "It was this blink that had seduced Alice to her field.", style: "italic" },
+{ text: "In her freshman year of college she took an Introduction to Logic class.", style: "italic" },
+{ text: "In their second week, they were treated to a magick demonstration.", style: "italic" },
+{ text: "A visiting postdoc stood before the lecture hall and drew a chalk circle around a small pile of sand on a table.", style: "italic" },
+{ text: "“Watch,” he said, and reached in to scoop a handful away.", style: "italic" },
+{ text: "He did this again, and again, and again.", style: "italic" },
+{ text: "He invited the class to line up and, one by one, try to empty the pile with their hands.", style: "italic" },
+{ text: "They tried; they couldn’t.", style: "italic" },
+{ text: "Each time their hands left the circle, the space around the pile blurred, and the sand did not diminish.", style: "italic" },
+"",
+{ text: "Alice watched the sand spill from her fingers, and something knocked over in her chest.", style: "italic" },
+{ text: "She could not breathe.", style: "italic" },
+{ text: "Now, here was a miracle.", style: "italic" },
+{ text: "Here was Jesus, turning five loaves and two fish into an endless supply.", style: "italic" },
+{ text: "All the fields she had considered for her major—maths, physics, medicine, history—they all fell away, they seemed so irrelevant, for why would you study static truths when truth had just exited left?", style: "italic" },
+{ text: "She felt it then.", style: "italic" },
+{ text: "She felt it every time.", style: "italic" },
+{ text: "The stomach-dropping awe, the wondrous delight of a child at a circus who’d just seen a rabbit disappear.", style: "italic" },
+{ text: "Through all her years of study, this feeling never went away.", style: "italic" },
+{ text: "You thought the world was one way and then it wasn’t.", style: "italic" },
+{ text: "One could become zero.", style: "italic" },
+{ text: "One could become two.", style: "italic" },
+{ text: "A blink of an eye, and the fact of the matter was not.", style: "italic" },
+{ text: "If the world could be fluid for you once, how many more times could you make it dance according to your whims?", style: "italic" },
+"",
+{ text: "Everyone else lived in such an ossified world.", style: "italic" },
+{ text: "They simply took the rules given to them.", style: "italic" },
+{ text: "They were interested only in articulating their own limits; they moved about as if in stone.", style: "italic" },
+{ text: "But magicians lived in air, dancing on a tentative staircase of ideas, and it was a source of endless delirium, to know that the instant the world began to bore you, you could snap your fingers, and you’d be in free fall once again.", style: "italic" },
+"",
+{ text: "All it took was to tell a lie—and to believe, despite all the evidence to the contrary, that all the rules could be suspended.", style: "italic" },
+{ text: "You held a conclusion in your head and believed, through sheer force of will, that everything else was wrong.", style: "italic" },
+{ text: "You had to see the world as it was not.", style: "italic" },
+"",
+{ text: "Now Alice, as she proceeded through her coursework, got very good at this.", style: "italic" },
+{ text: "All skilled magicians were.", style: "italic" },
+{ text: "Success in this field demanded a forceful, single-minded capacity for self-delusion.", style: "italic" },
+{ text: "Alice could tip over her world and construct planks of belief from nothing.", style: "italic" },
+{ text: "She believed that finite quantities would never run out, that time could loop back on itself, and that any damage could be repaired.", style: "italic" },
+{ text: "She believed that academia was a meritocracy, that hard work was its own reward.", style: "italic" },
+{ text: "She believed that department pettiness could not touch you, so long as you kept your head down and did not complain.", style: "italic" },
+{ text: "She believed that when professors snapped at you, when they belittled and misused you, it was because they cared.", style: "italic" },
+{ text: "And she believed, despite mounting evidence to the contrary, that she was all right, that everything was all right, that she did not need help, that she could just stiffen her upper lip and keep on going.", style: "italic" },
+"",
+{ text: "She believed these things with all her might, with the same delirium it took to keep a heap of sand from ever running out.", style: "italic" },
+{ text: "She had no choice.", style: "italic" },
+{ text: "It was essential practice for everything that came after.", style: "italic" }
             ],
             translation: [
                                     "Tentang Magick",
@@ -35949,71 +35949,177 @@ document.addEventListener('DOMContentLoaded', function() {
   "Alice memanjat naik, Peter mengikuti di belakangnya.",
   "Dan bersama-sama mereka muncul, untuk melihat kembali bintang-bintang."
             ]
+        },
+        {
+            title: "Peter’s Map",
+            original: [
+                { type: 'image', 
+                 src: 'https://i.ibb.co.com/PGZvFn06/map1.webp', 
+                 alt: 'gbr peter' }
+            ],
+            translation: [
+                
+            ]
+        },
+        {
+            title: "Alice’s Map",
+            original: [
+                { type: 'image', 
+                 src: 'https://i.ibb.co.com/HpdjSZtW/map2.webp', 
+                 alt: 'gbr alice' }
+            ],
+            translation: [
+                
+            ]
+        },
+        {
+            title: "Elspeth’s Map",
+            original: [
+                { type: 'image', 
+                 src: 'https://i.ibb.co.com/qLZYmTyK/map3.webp', 
+                 alt: 'gbr elspeth' }
+            ],
+            translation: [
+                
+            ]
         }
     ];
-        /*
-        {
-            title: "XXXX",
-            original: [
-                
-            ],
-            translation: [
-                
-            ]
-        }
-
-
-        {
-            title: "new sample xxx",
-            original: [
-                "Kalimat ini adalah teks biasa.",
-                { text: 'Sedangkan kalimat ini akan ditampilkan dalam gaya miring (italic).', style: 'italic' },
-                "Kita bisa kembali ke teks normal setelah itu.",
-                "",
-                { type: 'image', src: 'https://placehold.co/600x400/e11d48/fff1f2?text=Gambar+Contoh', alt: 'Sebuah gambar contoh' },
-                "Struktur untuk gambar dan paragraf baru tetap sama seperti sebelumnya."
-            ],
-            translation: [
-                "This sentence is normal text.",
-                "Whereas this sentence will be displayed in an italic style",
-                "We can return to normal text after that.",
-                "",
-                "", 
-                "The structure for images and new paragraphs remains the same as before."
-            ]
-        }
-        */
-    
-
-    //  // --- ELEMEN HTML ---
+  
+ // --- ELEMEN HTML ---
     const articlesContainer = document.getElementById('articles-container');
     const popup = document.getElementById('translation-popup');
+    const fontAdjusterToggle = document.getElementById('font-adjuster-toggle');
+    const fontAdjusterContainer = document.getElementById('font-adjuster-container');
+    const fontSizeSlider = document.getElementById('font-size-slider');
+    const vocabToggleButton = document.getElementById('vocab-toggle-button');
+    const vocabSidebar = document.getElementById('vocab-sidebar');
+    const vocabList = document.getElementById('vocab-list');
+    const clearVocabButton = document.getElementById('clear-vocab-button');
 
-    // --- LOGIKA UTAMA ---
+    // --- DATA & LOCALSTORAGE ---
+    const savedFontSize = localStorage.getItem('fontSize') || '3';
+    const savedActiveArticles = JSON.parse(localStorage.getItem('activeArticles')) || [];
+    let vocabulary = JSON.parse(localStorage.getItem('vocabulary')) || [];
+
+
+    // ================================================================
+    // ================= LOGIKA FITUR BOOKMARK ========================
+    // ================================================================
+    function renderVocabulary() {
+        vocabList.innerHTML = ''; 
+        if (vocabulary.length === 0) {
+            vocabList.innerHTML = '<li><div class="vocab-item-content"><span class="original-vocab">Belum ada bookmark.</span><span class="translation-vocab">Klik teks untuk menerjemahkan, lalu klik tombol \'+\' pada pop-up.</span></div></li>';
+            return;
+        }
+        vocabulary.forEach(item => {
+            const li = document.createElement('li');
+            // PERUBAHAN: Tambahkan data-article-index pada <li>
+            li.dataset.articleIndex = item.articleIndex; 
+            li.title = "Klik untuk lompat ke sumber"; // Tambahkan tooltip
+            li.style.cursor = "pointer";
+
+            li.innerHTML = `
+                <div class="vocab-item-content">
+                    <span class="original-vocab">${item.original}</span>
+                    <span class="translation-vocab">${item.translation}</span>
+                    <span class="vocab-source">Sumber: ${item.source}</span>
+                </div>
+                <button class="delete-vocab-btn" data-original="${item.original}" title="Hapus item ini">×</button>
+            `;
+            vocabList.appendChild(li);
+        });
+    }
+
+    // PERUBAHAN: Tambahkan parameter 'articleIndex'
+    function addVocabulary(original, translation, source, articleIndex) {
+    const isDuplicate = vocabulary.some(item => item.original === original);
+    if (!isDuplicate) {
+        vocabulary.unshift({ original, translation, source, articleIndex }); // <-- Ganti menjadi .unshift()
+        localStorage.setItem('vocabulary', JSON.stringify(vocabulary));
+        renderVocabulary();
+    }
+}
+    
+    function deleteVocabularyItem(originalText) {
+        vocabulary = vocabulary.filter(item => item.original !== originalText);
+        localStorage.setItem('vocabulary', JSON.stringify(vocabulary));
+        renderVocabulary();
+    }
+
+    vocabToggleButton.addEventListener('click', () => {
+        vocabSidebar.classList.toggle('visible');
+    });
+
+    clearVocabButton.addEventListener('click', () => {
+        if (vocabulary.length > 0 && confirm('Apakah Anda yakin ingin menghapus SEMUA bookmark tersimpan?')) {
+            vocabulary = [];
+            localStorage.removeItem('vocabulary');
+            renderVocabulary();
+        }
+    });
+
+    // PERUBAHAN: Logika klik di panel, bisa untuk hapus atau scroll
+    vocabList.addEventListener('click', function(event) {
+        const target = event.target;
+        // Cek jika yang diklik adalah tombol hapus
+        if (target.classList.contains('delete-vocab-btn')) {
+            const originalTextToDelete = target.dataset.original;
+            if (confirm(`Apakah Anda yakin ingin menghapus: "${originalTextToDelete}"?`)) {
+                deleteVocabularyItem(originalTextToDelete);
+            }
+        // Jika bukan tombol hapus, jalankan fungsi scroll
+        } else {
+            const listItem = target.closest('li');
+            if (listItem && listItem.dataset.articleIndex) {
+                const articleIndex = parseInt(listItem.dataset.articleIndex, 10);
+                const allArticles = document.querySelectorAll('.article-container');
+                const targetArticle = allArticles[articleIndex];
+
+                if (targetArticle) {
+                    // Tutup panel
+                    vocabSidebar.classList.remove('visible');
+                    // Scroll ke artikel
+                    targetArticle.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    // Beri efek highlight sementara
+                    targetArticle.classList.add('article-highlight');
+                    setTimeout(() => {
+                        targetArticle.classList.remove('article-highlight');
+                    }, 2000); // Highlight hilang setelah 2 detik
+                }
+            }
+        }
+    });
+
+    renderVocabulary(); 
+
+    // ... (Fungsi applyFontSize & event listener font tidak berubah) ...
+    function applyFontSize(size) {
+        for (let i = 1; i <= 5; i++) { articlesContainer.classList.remove(`font-size-${i}`); }
+        articlesContainer.classList.add(`font-size-${size}`);
+        fontSizeSlider.value = size;
+    }
+    applyFontSize(savedFontSize);
+    fontAdjusterToggle.addEventListener('click', () => { fontAdjusterContainer.classList.toggle('visible'); });
+    fontSizeSlider.addEventListener('input', (event) => {
+        const newSize = event.target.value;
+        applyFontSize(newSize);
+        localStorage.setItem('fontSize', newSize);
+    });
+    
+    // ... (Logika render artikel tidak berubah) ...
     articlesData.forEach((articleData, articleIndex) => {
         const articleContainerEl = document.createElement('div');
-        articleContainerEl.className = 'article-container';
-
+        if (articleData.type === 'sub-article') { articleContainerEl.className = 'article-container sub-article-container'; } else { articleContainerEl.className = 'article-container';}
+        if (savedActiveArticles.includes(articleIndex)) { articleContainerEl.classList.add('active'); }
         const articleHeader = document.createElement('div');
         articleHeader.className = 'article-header';
-        articleHeader.innerHTML = `
-            <h3 class="text-xl font-bold text-white">${articleData.title}</h3>
-            <div class="collapse-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </div>
-        `;
-
+        articleHeader.innerHTML = `<h3 class="font-bold text-white">${articleData.title}</h3><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div>`;
         const articleContent = document.createElement('div');
         articleContent.className = 'article-content';
-
         const contentInner = document.createElement('div');
         contentInner.className = 'article-content-inner';
-        
         const textContainer = document.createElement('div');
         textContainer.className = 'text-lg leading-relaxed text-slate-300';
-        
-        // --- LOGIKA YANG DIPERBARUI ---
-
         const createParagraph = (contentArray) => {
             if (contentArray.length === 0) return;
             const p = document.createElement('p');
@@ -36023,115 +36129,94 @@ document.addEventListener('DOMContentLoaded', function() {
                 span.dataset.articleIndex = item.articleIndex;
                 span.dataset.segmentIndex = item.segmentIndex;
                 span.classList.add('original-text-segment');
-                
-                // PENAMBAHAN: Terapkan kelas italic dari Tailwind jika ada
-                if (item.style === 'italic') {
-                    span.classList.add('italic');
-                }
-                
+                if (item.style === 'italic') { span.classList.add('italic'); }
                 p.appendChild(span);
                 p.append(' ');
             });
             textContainer.appendChild(p);
         };
-
         let paragraphContent = [];
-        
         articleData.original.forEach((segment, segmentIndex) => {
             if (typeof segment === 'object' && segment !== null) {
-                // Jika objek gambar
-                if (segment.type === 'image') {
-                    createParagraph(paragraphContent);
-                    paragraphContent = [];
-
-                    const img = document.createElement('img');
-                    img.src = segment.src;
-                    img.alt = segment.alt || 'Gambar dalam artikel';
-                    img.className = 'w-full h-auto rounded-xl my-4';
-                    textContainer.appendChild(img);
-                
-                // Jika objek teks (untuk styling)
-                } else if (segment.text) {
-                    paragraphContent.push({
-                        text: segment.text,
-                        style: segment.style || 'normal',
-                        articleIndex: articleIndex,
-                        segmentIndex: segmentIndex
-                    });
-                }
-            } else if (segment === "") {
-                createParagraph(paragraphContent);
-                paragraphContent = [];
-            
-            // Jika string teks biasa
-            } else if (typeof segment === 'string' && segment.length > 0) {
-                paragraphContent.push({
-                    text: segment,
-                    style: 'normal', // Gaya default
-                    articleIndex: articleIndex,
-                    segmentIndex: segmentIndex
-                });
-            }
+                if (segment.type === 'image') { createParagraph(paragraphContent); paragraphContent = []; const img = document.createElement('img'); img.src = segment.src; img.alt = segment.alt || 'Gambar dalam artikel'; img.className = 'w-full h-auto rounded-xl my-4'; textContainer.appendChild(img);
+                } else if (segment.text) { paragraphContent.push({ text: segment.text, style: segment.style || 'normal', articleIndex: articleIndex, segmentIndex: segmentIndex }); }
+            } else if (segment === "") { createParagraph(paragraphContent); paragraphContent = [];
+            } else if (typeof segment === 'string' && segment.length > 0) { paragraphContent.push({ text: segment, style: 'normal', articleIndex: articleIndex, segmentIndex: segmentIndex });}
         });
-
         createParagraph(paragraphContent);
-        // --- AKHIR LOGIKA YANG DIPERBARUI ---
-
         contentInner.appendChild(textContainer);
         articleContent.appendChild(contentInner);
-        
         articleContainerEl.appendChild(articleHeader);
         articleContainerEl.appendChild(articleContent);
         articlesContainer.appendChild(articleContainerEl);
-
         articleHeader.addEventListener('click', () => {
-            articleContainerEl.classList.toggle('active');
+            const isActive = articleContainerEl.classList.toggle('active');
+            const currentActive = JSON.parse(localStorage.getItem('activeArticles')) || [];
+            if (isActive) { if (!currentActive.includes(articleIndex)) { currentActive.push(articleIndex); }
+            } else { const indexToRemove = currentActive.indexOf(articleIndex); if (indexToRemove > -1) { currentActive.splice(indexToRemove, 1); } }
+            localStorage.setItem('activeArticles', JSON.stringify(currentActive));
         });
     });
 
+    // ... (Animasi scroll reveal tidak berubah) ...
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+        });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.article-container').forEach(articleEl => { observer.observe(articleEl); });
+
+
+    // ================================================================
+    // ============== LOGIKA POP-UP (DIMODIFIKASI) ====================
+    // ================================================================
     function showPopup(target) {
         const articleIndex = target.dataset.articleIndex;
         const segmentIndex = target.dataset.segmentIndex;
-        
-        const originalSegment = articlesData[articleIndex].original[segmentIndex];
+        const sourceTitle = articlesData[articleIndex].title;
         let translationSegment = articlesData[articleIndex].translation[segmentIndex];
+
+        if (typeof translationSegment === 'object' && translationSegment.text) { translationSegment = translationSegment.text; }
+        if (!translationSegment) { hidePopup(); return; }
         
-        // Ambil teks dari objek jika ada
-        if (typeof translationSegment === 'object' && translationSegment.text) {
-            translationSegment = translationSegment.text;
-        }
-
-        if (!translationSegment) {
-            hidePopup();
-            return;
-        }
-
+        // PERUBAHAN: Tambahkan data-article-index ke tombol '+'
+        popup.innerHTML = `
+            <span>${translationSegment}</span>
+            <button class="add-vocab-btn" title="Simpan Bookmark" data-original="${target.textContent.trim()}" data-translation="${translationSegment}" data-source="${sourceTitle}" data-article-index="${articleIndex}">+</button>
+        `;
+        
         const rect = target.getBoundingClientRect();
-        popup.textContent = translationSegment;
         popup.style.top = `${window.scrollY + rect.bottom}px`;
         popup.style.left = `${window.scrollX + rect.left}px`;
         popup.classList.add('visible');
     }
 
-    function hidePopup() {
-        popup.classList.remove('visible');
-    }
+    function hidePopup() { popup.classList.remove('visible'); }
 
     articlesContainer.addEventListener('click', function(event) {
         const target = event.target;
         if (target.classList.contains('original-text-segment')) {
             const previouslySelected = document.querySelector('.selected-text');
-            if (previouslySelected) {
-                previouslySelected.classList.remove('selected-text');
-            }
-
-            if (previouslySelected === target) {
-                hidePopup();
-                return;
-            }
-
+            if (previouslySelected) { previouslySelected.classList.remove('selected-text'); }
+            if (previouslySelected === target) { hidePopup(); return; }
             target.classList.add('selected-text');
             showPopup(target);
+        }
+    });
+
+    // PERUBAHAN: Ambil data-article-index dan teruskan ke fungsi addVocabulary
+    popup.addEventListener('click', function(event){
+        if(event.target.classList.contains('add-vocab-btn')){
+            const btn = event.target;
+            addVocabulary(btn.dataset.original, btn.dataset.translation, btn.dataset.source, btn.dataset.articleIndex);
+            btn.textContent = '✓';
+            btn.style.borderColor = '#6ee7b7';
+            btn.style.color = '#6ee7b7';
+            setTimeout(() => {
+                hidePopup();
+                const previouslySelected = document.querySelector('.selected-text');
+                if (previouslySelected) { previouslySelected.classList.remove('selected-text');}
+            }, 600);
         }
     });
 
@@ -36139,9 +36224,36 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!event.target.closest('.article-container') && !event.target.closest('#translation-popup')) {
              hidePopup();
              const previouslySelected = document.querySelector('.selected-text');
-             if (previouslySelected) {
-                 previouslySelected.classList.remove('selected-text');
-             }
+             if (previouslySelected) { previouslySelected.classList.remove('selected-text'); }
+        }
+        if (!event.target.closest('#font-adjuster-container') && !event.target.closest('#font-adjuster-toggle')) {
+            fontAdjusterContainer.classList.remove('visible');
+        }
+        if (!event.target.closest('#vocab-sidebar') && !event.target.closest('#vocab-toggle-button')) {
+            vocabSidebar.classList.remove('visible');
         }
     });
+
+    // ... (Progress bar dan paralaks tidak berubah) ...
+    const progressBar = document.getElementById('progress-bar');
+    window.addEventListener('scroll', () => {
+        const scrollTop = document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrollPercentage = (scrollTop / scrollHeight) * 100;
+        progressBar.style.width = `${scrollPercentage}%`;
+    });
+    const shape1 = document.querySelector('.shape1');
+    const shape2 = document.querySelector('.shape2');
+    const shape3 = document.querySelector('.shape3');
+    document.body.addEventListener('mousemove', (e) => {
+        if (!shape1 || !shape2 || !shape3) return;
+        const { clientX, clientY } = e;
+        const x = (clientX / window.innerWidth) * 50 - 25;
+        const y = (clientY / window.innerHeight) * 50 - 25;
+        shape1.style.transform = `translate(${-x * 0.8}px, ${-y * 1.2}px)`;
+        shape2.style.transform = `translate(${x * 1.2}px, ${y * 0.8}px)`;
+        shape3.style.transform = `translate(${-x * 1.8}px, ${y * 1.6}px)`;
+    });
 });
+  
+  
